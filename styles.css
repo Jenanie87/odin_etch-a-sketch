@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+    font-family: 'Borel', cursive;
+}
+
+.multicolor {
+    width: 250px;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    background: linear-gradient(to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    border: 0.1px solid black;
+    width: 960px;
+    height: 960px;
+}
+
+.squareColumn {
+    display: flex;
+    flex: 1 1 0;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+.squareColumn:hover {
+    background-color: grey;
+}
+
+.squareRow {
+    flex: 1 1 0;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: black;
+}
+
+
